@@ -1,0 +1,46 @@
+body {
+	font-size: medium;
+}
+.articleContainer {
+  background-color: #FFFFFF;
+  padding: 40px 30px;
+  border: 5px solid black;
+  color: black;
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font: 30px;
+}
+.floatedBox {
+    float: right;
+}
+.shadowedBox {
+  box-shadow: 10px 5px 5px #888888;
+ border: 2px solid black;
+}
+.postAuthor {
+  font-size: 20px;
+}
+header {
+	background-color: #0000FF;
+	font-family: "Holtwood One SC";
+	font-size: 40px;
+}
+.niceParagraph, span {
+  background-color: grey;
+  font-family: "Baskerville";
+}
+p {
+	font-family: Actor
+	font-size: 12px;
+}
+footer {
+  background-color: #444444;
+  padding: 30px 10px;
+  border-top: 5px solid white;
+  color: white;
+  font: 10px italic;
+  width: 100%;
+}
