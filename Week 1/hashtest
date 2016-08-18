@@ -1,0 +1,3 @@
+array =[[{:hash => "yes"},{:hash => "no"}],[{:hash => "yes"},{:hash => "no"}]]
+p array[0][0]{:hash}
+p array[1][1]{:hash}

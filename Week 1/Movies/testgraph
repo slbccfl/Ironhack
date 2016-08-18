@@ -1,0 +1,5 @@
+
+
+(10..1).each { |rating|
+puts rating + "!_!_!_!"
+}
