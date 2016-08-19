@@ -17,13 +17,13 @@ while command != "exit" do
 	print ">"
 	command = gets.chomp
 	case command.downcase
-	when "exit"
+	when "x"
 		puts "Terminating game..."
-	when "n", "s", "e", "w"
+	when "n", "s", "e", "w", 
 		if current_room.exits[command] != nil
 			puts "you are leaving the room..."
-			current_room = current_room.exits[command]
-			current_room.description
+			current_room = gameboard[current_room.exits[command]]
+			puts "You are entering #{current_room.description}"
 		else
 			puts "you cannot leave this room in that direction"
 		end
@@ -32,7 +32,7 @@ while command != "exit" do
 		puts current_room.special_commands[command]
 	else
 		puts "not a recognized command"
-		puts current_room.description
+		puts "You are in #{current_room.description}"
 	end
 end
 

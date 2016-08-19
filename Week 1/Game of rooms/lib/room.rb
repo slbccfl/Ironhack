@@ -6,5 +6,9 @@ class Room
 		@special_commands = special_commands #hash containing the first word of special commands available in the room
 	end
 
+	def display_room_description
+		@description
+	end
+
 end
 
