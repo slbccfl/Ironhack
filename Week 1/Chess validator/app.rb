@@ -55,16 +55,20 @@ chess_moves.each do |a_move|
 	from_coords = convert_coord(move_from)
 	move_to = a_move.slice(3,2)
 	to_coords = convert_coord(move_to)
-	p from_coords[0], from_coords[1]
-	p gameboard.chessboard
-	chesspiece = gameboard.chessboard[from_coords[0]][from_coords[1]]
-	if validate_moves(chesspiece,from_coords[0],from_coords[1],to_coords[0],to_coords[1]) == "no"
-		return "ILLEGAL"
+	from_x = from_coords[0]
+	from_y = from_coords[1]
+	to_x = to_coords[0]
+	to_y = to_coords[1]
+	puts "from: #{from_x}, #{from_y}"
+	puts "to: #{to_x}, #{to_y}"
+	chesspiece = gameboard.chessboard[from_x][from_y]
+	if validate_moves(chesspiece,from_x,from_y,to_x,to_y) == "no"
+		move_result = "ILLEGAL"
+	else if gameboard.chessboard[to_x, to_y] != "__"
+		move_result = "ILLEGAL"
 	else
-		return gameboard.apply_move(from_x, from_y, to_x, to_y)
+		gameboard.apply_move(from_x, from_y, to_x, to_y)
+		move_result = "LEGAL"
 	end
+	puts move_result
 end
-
-
-
-

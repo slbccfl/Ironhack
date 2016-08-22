@@ -26,7 +26,8 @@ class Chessboard
 	end
 
 	def apply_move(from_x, from_y, to_x, to_y)
-
+		@chessboard[to_x, to_y] = @chessboard[from_x, from_y]
+		@chessboard[from_x, from_y] = "__"
 	end
 
 end
