@@ -2,21 +2,20 @@
 
 require_relative("../lib/task.rb")
 
-RSpec.describe "Task" do
-	before(:each) do
-		@task = Task.new("Buy the milk")
-	end
-	describe "Task" do
-		it "creates the \"Buy the milk\" task" do
-			expect(@task).to exist
-		end
-		it "initializes the first task.id to 1" do
-			expect(@task.task.id).to eq(1)
-		it "initializes new tasks to completed false" do
-			expect(@task.completed?).to eq(false)
+RSpec.describe "TodoList" do
+	describe "Create the first Task" do
+		it "The task.id is 1 and the task.completed is false" do
+			@task = Task.new("Buy the milk")
+
+			expect(@task.id).to eq(1)
 		end
 		it "completes a task" do
-			expect(@task.completed!).to eq(@task.completed?==true)
+			@task = Task.new("Buy the milk")
+			expect(@task.completed?).to eq(false)
+
+			@task.completed!
+
+			expect(@task.completed?).to eq(true)
 		end
 	end
 end

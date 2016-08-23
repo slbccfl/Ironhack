@@ -19,3 +19,22 @@ get "/pizza" do
 	erb :pizza
 end
 
+users = [
+	{:username => "starwars", :name=>"Star Wars", :bio=>"blah blah blah", :avitar=>"public/starwars.jpg"},
+	{:username => "cleondion", :name=>"Cleon Dion", :bio=>"more blah blah"},
+	{:username => "stevenbarnes", :name=>"Steven Barnes", :bio=>"Cornfed midwesterner"}
+]
+
+
+
+
+get "/users/:username" do
+	@user_name_string = params[:username]
+	@the_user = users.find {|the_user| the_user[:username]==@user_name_string}
+	if @the_user == nil
+		erb :no_user
+	else
+		erb :user_profile
+	end
+end
+
