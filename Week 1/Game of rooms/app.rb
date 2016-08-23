@@ -12,14 +12,15 @@ gameboard = {"room1"=>room1, "room2"=>room2, "room3"=>room3,"room4"=>room4,"room
 current_room = room1
 p current_room
 puts current_room.description
+puts "Standard commands are x-eXit, n-North, s-South, e-East, w-West"
 command = ""
-while command != "exit" do
+while command != "x" do
 	print ">"
 	command = gets.chomp
 	case command.downcase
 	when "x"
 		puts "Terminating game..."
-	when "n", "s", "e", "w", 
+	when "n", "s", "e", "w"
 		if current_room.exits[command] != nil
 			puts "you are leaving the room..."
 			current_room = gameboard[current_room.exits[command]]
