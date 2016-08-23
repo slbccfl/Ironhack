@@ -1,0 +1,13 @@
+<! - views/pizza.erb ->
+<h1> Our Favorite Pizza</h1>
+
+<p> Pound for pound, the best pizza in the world@</p>
+
+<ul>
+
+<% @pizza_ingredients.each do |the_ingredient | %>
+	<li>
+	Ingredient: <%= the_ingredient %>
+	</li>
+	<% end %>
+</ul>

@@ -1,0 +1,18 @@
+<! -- views/home.erb -->
+<h1>My first Sinatra app.</h1>
+<ul>
+<li><a href='/company'>See company page</a></li>
+<li><a href='/about'>About our company</a></li>
+<li><a href='/pizza'>Our Favorite Pizza</a></li>
+</ul>
+
+<% if Date.today.tuesday? %>
+	<p>
+		Izzy Ironside is <strong>NOT</strong>
+		a fan of Tuesdays like today
+	</p>
+<% end %>
+
+<p>Izzy Ironside was born on 
+<%= Date.today %>.
+</p>
