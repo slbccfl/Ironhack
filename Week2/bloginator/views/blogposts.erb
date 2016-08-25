@@ -1,0 +1,19 @@
+<! - views/blogposts.erb ->
+
+<link rel="stylesheet" href="/styles.css">
+
+<h1>Blog Posts</h1>
+
+<p>Here are our genius observations:</p>
+
+
+<ul>
+
+	<% @blog.posts.each_with_index do |post, index| %>
+		<li><a href="post_details/<%= index%>"><%=post.time%> - <%=post.title%></a></li>
+	<% end %>
+</ul>
+
+<form action="new_post">
+    <input type="submit" value="Add a New Post" />
+</form>
