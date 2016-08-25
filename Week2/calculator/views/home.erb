@@ -1,1 +1,19 @@
-home.erb
+<!-- views/home.erb -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Online Calculator</title>
+	</head>
+	<body>
+		<h1>Four-Banger Calculator</h1>
+
+		<form method="post" action="/calculate">
+			<input type="number" name="first_number" placeholder="1st number"> +
+			<input type="number" name="second_number" placeholder="2nd number">
+			<button type="submit" name="operation" value="Addition">Addition</button>
+			<button type="submit" name="operation" value="Subtraction">Subtraction</button>
+			<button type="submit" name="operation" value="Multiplication">Multiplication</button>
+			<button type="submit" name="operation" value="Division">Division</button>
+		</form>
+	</body>
+</html>

@@ -1,20 +1,26 @@
 
 require "sinatra"
 
+require_relative "lib/calculator.rb"
+
 calculator = Calculator.new
 
 get "/" do 
 	erb(:home)
 end
-post "/calculate_addition" do
-  @first = params[:first_number].to_f
-  @second = params[:second_number].to_f
-  @result = calculator.addition(@first,@second)
-  erb(:addition_result)
-end
-post "/calculate_subtraction" do
-  @first = params[:first_number].to_f
-  @second = params[:second_number].to_f
-  @result = calculator.subtraction(first,second)
-  erb(:subtraction_result)
+post "/calculate" do
+  @first_number = params[:first_number].to_f
+  @second_number = params[:second_number].to_f
+  @operation = params[:operation]
+  if @operation == "Addition"
+  	@result = calculator.addition(@first_number,@second_number)
+  elsif @operation == "Subtraction"
+	@result = calculator.subtraction(@first_number,@second_number)
+  elsif @operation == "Multiplication"
+   	@result = calculator.multiplication(@first_number,@second_number)
+  elsif @operation == "Division"
+  	@result = calculator.division(@first_number,@second_number)
+  end
+
+  erb(:calculator_result)
 end

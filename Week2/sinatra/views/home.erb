@@ -4,6 +4,7 @@
 <li><a href='/company'>See company page</a></li>
 <li><a href='/about'>About our company</a></li>
 <li><a href='/pizza'>Our Favorite Pizza</a></li>
+<li><a href='/leadership'>Our Leadership</a></li>
 </ul>
 
 <% if Date.today.tuesday? %>
@@ -16,3 +17,8 @@
 <p>Izzy Ironside was born on 
 <%= Date.today %>.
 </p>
+
+<small>
+Currently in the session: 
+<b><%= session[:saved_value] %></b>
+</small>
