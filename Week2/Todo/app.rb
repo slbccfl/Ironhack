@@ -4,26 +4,26 @@ require "sinatra"
 require "sinatra/reloader" if development?
 require "pry"
 
-enable(:sessions)
 
 get "/" do 
 	erb :home
 end
 
-get "/company" do
-	erb :company
+get "/tasks" do
+	erb :task_index
 end
 
-get "/about" do
-	erb :about
+get "/new_task" do
+	erb :new_task
 end
 
-get "/pizza" do
-	@pizza_ingredients = ["Cheese", "Dough", "Tomatoe Sauce", "Mushrooms", "Pepperoni", "Pineapple"]
-	erb :pizza
-end
-
-get "/leadership" do
+get "/create_task" do
+#ERB: No erb, there's nothing to display. We just want 
+#to perform some actions on the back-end, and redirect our user.
+#What does it do?: This should take the information received 
+#from a form, create a new task, add it to the list, and save the tasks. 
+#Finally, it should redirect the user back to the tasks_index. 
+#Remember, we want to redirect, not render.
 	erb :leadership
 end
 
