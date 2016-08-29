@@ -1,0 +1,68 @@
+/*netflix.css*/
+@font-face {
+font-family: ProximaNova-Reg;
+src: url("fonts/ProximaNova-Reg.otf") format("opentype");
+}
+div.familypic
+{
+	background: #ffffff url("images/family.jpg") no-repeat left top;
+	background-size: cover;
+}
+img.logo
+{
+	max-width: 200px;
+	height: auto;
+	margin-left: 30px;
+	margin-top: -20px;
+}
+button
+{
+	color: white;
+	border: none;
+	padding: 15px;
+	font-size: 16px;
+}
+button.signon
+{
+	margin-top: 20px;
+	margin-right: 20px;
+	float: right;
+	background-color: #DB0310;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.centerbox
+{
+	background-color: rgba(0,0,0,0.5); 
+	color: white;
+	margin-top: 100px;
+	padding: 25px;
+	font: 60px ProximaNova-Reg, sans-serif;
+	width: 60%;
+	height: 250px;
+	margin-left: 20%;
+
+}
+.freebutton
+{
+	text-align: center;
+}
+
+button.freebutton
+{
+	background-color: #6b67ea;
+	margin: auto;
+}
+h2
+{
+	font: 30px ProximaNova-Sbold, sans-serif;
+	margin-left: 35px;
+}
+
+.newreleases img
+{
+	width: 16%;
+	height: auto;
+	margin-left: 35px;
+
+}
