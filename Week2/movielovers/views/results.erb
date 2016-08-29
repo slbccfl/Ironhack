@@ -1,7 +1,7 @@
 <h1> Movie Trivia </h1>
 <h3> Which of these movies was released in <%=@release_year%>?</h3>
 
-<form method="post">
+<form method="post" action="/search_results">
 	<% @movies_to_display.each_with_index do |the_movie, index| %>
 		<!-- <img name=index src="<%= the_movie.poster %>" height=350 width=300> -->
 		<a href="/search_results/<%= index%>">

@@ -27,7 +27,8 @@ get "/results" do
 end
 
 post "/search_results/:index" do
-	if @movies_to_display[:index].year == @release_year
+	@index = params[:index]
+	if @movies_to_display[@index].year == @release_year
 		# correct
 	else
 		# wrong
