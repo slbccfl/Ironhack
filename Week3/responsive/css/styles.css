@@ -1,0 +1,23 @@
+#header-image {
+	background-image: url('image.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+@media screen and (min-width: 786px) {
+  #header-image {
+	background-image: url('small.jpg');
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #header-image {
+	background-image: url('medium.jpg');
+  }
+}
+/* show a large image when you're on a big screen*/
+@media screen and (min-width: 1200px) {
+	#header-image {
+		background-image: url('large-image.jpg');
+	}
+}
