@@ -1,0 +1,37 @@
+.container-fluid {
+	background-image: url('trellobackground.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+.btn-default {
+    background-color: rgba(255,255,255,0.2);
+    color: #ffffff;
+    border-style: none;
+}
+.btn-default input[type="text"], textarea  {
+	background-color: rgba(255,255,255,0.2);
+	border-style: none;
+}
+.header-row {
+	background-color: rgba(47, 119, 225, 0.3)
+	font-color: white;
+
+}
+.left-controls {
+	display: inline;
+}
+.right-controls {
+	display: inline;
+}
+.trello-logo-container {
+	text-align: center;
+}
+.trello-logo {
+	width: 15%;
+	opacity: 0.6;
+}
+.menu-panel {
+	background-color: rgb(237, 239, 240);
+	height: 560px;
+}
