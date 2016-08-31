@@ -23,6 +23,7 @@
 }
 .right-controls {
 	display: inline;
+	float: right;
 }
 .trello-logo-container {
 	text-align: center;

@@ -7,10 +7,10 @@
 </head>
 <body>
 	<div class="container-fluid">
-	  <div class="row header-row">
-	    <div class="col-sm-3">
+	  <header class="row header-row">
+	    <div class="col-sm-4">
 	    	<button type="button" class="btn btn-default right-controls" aria-label="Left Align">
-				<img src="trelloboardslogo.png">Boards
+				<img src="trelloboardslogo.png"><strong>  Boards</strong>
 			</button>
 	    	
 	    	<button type="button" class="btn btn-default right-controls" aria-label="Left Align">
@@ -18,13 +18,13 @@
 				<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
 			</button>
 
-	    </div><!-- left controls -->
+	    </div><!-- close left controls -->
 
-	    <div class="col-sm-6 trello-logo-container">
+	    <div class="col-sm-4 trello-logo-container">
 	    	<img class="trello-logo" src="trello-feature1.png">
-	    </div><!-- trello logo -->
+	    </div><!-- close trello logo -->
 
-	    <div class="col-sm-3">
+	    <div class="col-sm-4">
 	    	<button type="button" class="btn btn-default right-controls" aria-label="Left Align">
 				<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
 			</button>
@@ -35,22 +35,37 @@
 	    	<button type="button" class="btn btn-default right-controls" aria-label="Left Align">
 				<span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
 			</button>
-	    </div><!-- right controls -->
-	  </div><!-- top bar -->
+	    </div><!-- close right controls -->
+	  </header><!-- close top bar -->
 
 	  <div class="row">
 	    <div class="col-sm-9">
-	  		<div class="row">
-	  		<h3>Agile Board</h3>
+	  		<header class="row">
+		  		<div class="col-sm-8">
+		  			Agile Board
+	  			</div><!-- close agile board header -->
+		  		<div class="col-sm-4">
+		  			Calendar
+	  			</div><!-- close calendar board header -->
+	  		</header><!-- close agile board header --> 
+	  			<div class="row">
+	  				<div class="col-sm-4">
+	  					Done list
+  					</div><!-- close Done list -->
+	  				<div class="col-sm-4"> list
+	  					Current Sprint list
+  					</div><!-- Current Spring list -->
+	  				<div class="col-sm-4">
+	  					In Progress list
+  					</div><!-- close In Progress list -->
+
 	  		</div>
-	  		<div class="row">
-	  		</div>
-	    </div><!-- board lists -->
+	    </div><!-- close board lists -->
 
 	    <div class="col-sm-3 menu-panel">
 	    	<h4>Menu</h4>
-	    </div><!-- menu -->
-	  </div><!-- board content -->
-	</div>
+	    </div><!-- close menu -->
+	  </div><!-- close board content -->
+	</div><!-- close fluid container -->
 </body>
 </html>
