@@ -13,7 +13,22 @@ fs.readFile("movies.txt", "utf8", function (theError, movieFileContents) {
 		console.log(theError);
 	}
 
-});
+})
+
+var read = require("read");
+
+var theOptions = {prompt: "What is your name?"};
+
+function greetUser (theError, givenName) {
+	console.log(`Hello, ${givenName}`.);
+	var theOptions2 = {prompt: "When were you born?"};
+
+	function bornWhen (theError, givenName) {
+		console.log(`Hello, ${givenName}`.);
+}
+}
+
+read(theOptions, greetUser);
 
 // var movieFileContents = File.read("movies.txt");
 
