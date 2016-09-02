@@ -6,9 +6,10 @@ class Person {
 	this.name = name;
 	this.health = health;
 	this.strength = strength;
-};
+	};
 
-attack (personAttacked) {
-	this.health - personAttacked.strength
-	personAttacked.health - this.strength
+	attack (personAttacked) {
+		this.health - personAttacked.strength
+		personAttacked.health - this.strength
+	}
 };

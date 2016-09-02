@@ -1,0 +1,56 @@
+
+.profileimage {
+	background-image: url('../images/profileimage.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+.btn-default {
+    background-color: #fff;
+    color: #888888;
+    border-style: none;
+    font-size: 85%;
+}
+.btn-default input[type="text"], textarea  {
+	background-color: #fff;
+	border-style: none;
+}
+.header-row {
+	background-color: rgba(47, 119, 225, 0.3)
+	font-color: white;
+
+}
+.left-controls {
+	display: inline;
+}
+.right-controls {
+	display: inline;
+	float: right;
+}
+.twitter-logo-container {
+	text-align: center;
+}
+.twitter-logo {
+	width: 15%;
+	opacity: 0.6;
+}
+.profilecontainer {
+	position: relative;
+	left: 50px;
+	top: -100px;
+}
+.profilepicture {
+	width: 70%;
+	border-radius: 25px;
+	border: 5px solid white;
+
+}
+.profiletitle {
+	font-size: 150%;
+	margin: 0px;
+}
+.ironhackimages {
+	width: 90px;
+	hight: 90px;
+}
+
