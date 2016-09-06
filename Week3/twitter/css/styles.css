@@ -28,7 +28,8 @@
 	float: right;
 }
 .twitter-logo-container {
-	text-align: center;
+	text-align: center;	
+	top: 5px;
 }
 .twitter-logo {
 	width: 15%;
@@ -39,18 +40,53 @@
 	left: 50px;
 	top: -100px;
 }
+.tweetscontainer {
+	position: relative;
+	left: 50px;
+}
+.tweetsheader {
+	font-size: 150%;
+}
+
+.tweeticon {
+	width: 50px;
+	border-radius: 5px;
+}
 .profilepicture {
 	width: 70%;
 	border-radius: 25px;
 	border: 5px solid white;
 
 }
+.profilecounts {
+	position: relative;
+	left: 50px;
+}
 .profiletitle {
-	font-size: 150%;
+	font-size: 160%;
 	margin: 0px;
 }
 .ironhackimages {
 	width: 90px;
 	hight: 90px;
 }
+.glyphicon-user {
+	color: #1DA1F2;
+}
+.followbutton {
+	float: right;
+	top: 10px;
+	
+}
+.postheading {
+	display: inline;
+	
+}
+.thetweet {
+	font-size: 150%;
+}
+.tweetimage {
+	width: 450px;
+}
+
 
