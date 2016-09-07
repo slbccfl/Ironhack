@@ -1,0 +1,22 @@
+<h1>Word Central</h1>
+
+<h2>Text inspection results</h2>
+
+<p>Text Entered:</p>
+<p><%= @text %></p>
+
+<p>Word count: <%= @word_count%></p>
+
+<p>Seconds to read: <%= @word_count / (275/60).to_f%></p>
+
+<%= puts @frequency %>
+<ol>
+<% count = 1 %>
+<% @frequency.each { |word, count| %>
+	<li><%= "#{word} occurs #{count} times" %></li>
+	<% count += 1 %>
+	<% break if count > 10 %>
+<% } %>
+</ol>
+
+<%= link_to "Return to home page", "/" %>
