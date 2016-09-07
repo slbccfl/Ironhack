@@ -1,3 +1,2 @@
-class Project < ApplicationRecord::Base
-	self.table_name='projects'
+class Project < ApplicationRecord
 end
