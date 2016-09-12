@@ -4,8 +4,10 @@
   <h2><%= @concert.artist %></h2>
 </p>
 <p>
-  <%= @concert.venue %> in <%= @concert.city %> on <%= @concert.datetime %>
-  Price of show: <%= concert.price %>
+  will be at <strong><%= @concert.venue %></strong> in <strong><%= @concert.city %></strong> on <strong><%= @concert.datetime %></strong>
+</p>
+<p>
+  Price of show: <%= @concert.price %>
 </p>
 <p>
   <%= @concert.description %>
