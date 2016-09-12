@@ -1,11 +1,12 @@
 Rails.application.routes.draw do
+ 	
+ 	get '/concerts/max_price', to: 'concerts#max_price'
+ 	post '/concerts/max_price', to: 'concerts#set_max'
+
  	resources :concerts do
  		resources :comments
  	end
 
- 	get 'max_price', to 'concerts#max_price'
-
  	root 'concerts#index'
-
 
 end

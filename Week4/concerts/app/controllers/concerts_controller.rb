@@ -30,4 +30,8 @@ class ConcertsController < ApplicationController
 
 	def max_price
 	end
+
+	def set_max
+		@max_price = [:concert][:max_price]
+	end
 end
