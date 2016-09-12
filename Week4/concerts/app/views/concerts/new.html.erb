@@ -1,0 +1,32 @@
+<h1>Concert Entry</h1>
+
+<%= form_for :concert, url: concerts_path do |f| %>
+  <p>
+    <%= f.label :artist %><br>
+    <%= f.text_field :artist %>
+  </p>
+  <p>
+    <%= f.label :venue %><br>
+    <%= f.text_field :venue %>
+  </p>
+  <p>
+    <%= f.label :city %><br>
+    <%= f.text_field :city %>
+  </p>
+  <p>
+    <%= f.label :datetime %><br>
+    <%= f.datetime_field :datetime %>
+  </p>
+  <p>
+    <%= f.label :price %><br>
+    <%= f.number_field :price %>
+  </p>
+  <p>
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
