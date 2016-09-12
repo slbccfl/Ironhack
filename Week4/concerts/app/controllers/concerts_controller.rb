@@ -12,8 +12,11 @@ class ConcertsController < ApplicationController
 			:price => params[:concert][:price],
 			:description => params[:concert][:description])
 	 
-		@concert.save
-		redirect_to @concert
+		if @concert.save
+			redirect_to @concert
+		else
+			render "new"
+		end
 	end
 
 	def index
@@ -23,5 +26,8 @@ class ConcertsController < ApplicationController
 
 	def show
 		@concert = Concert.find(params[:id])
+	end
+
+	def max_price
 	end
 end

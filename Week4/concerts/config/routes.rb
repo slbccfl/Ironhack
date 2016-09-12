@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
-	get 'site/index'
+ 	resources :concerts do
+ 		resources :comments
+ 	end
 
- 	resources :concerts
+ 	get 'max_price', to 'concerts#max_price'
 
- 	root 'site#index'
+ 	root 'concerts#index'
 
 
 end

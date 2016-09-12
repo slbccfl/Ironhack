@@ -11,4 +11,35 @@
 </p>
 <p>
   <%= @concert.description %>
-</p>
+</p> 
+
+<h2>Comments</h2>
+<% @concert.comments.each do |comment| %>
+  <p>
+    <strong>Commenter:</strong>
+    <%= comment.commenter %>
+  </p>
+ 
+  <p>
+    <strong>Comment:</strong>
+    <%= comment.comment %>
+  </p>
+<% end %>
+
+<h2>Add a comment:</h2>
+<%= form_for([@concert, @concert.comments.build]) do |f| %>
+  <p>
+    <%= f.label :commenter %><br>
+    <%= f.text_field :commenter %>
+  </p>
+  <p>
+    <%= f.label :comment %><br>
+    <%= f.text_area :comment %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+ 
+<%= link_to 'Edit', edit_concert_path(@concert) %> |
+<%= link_to 'Back', concerts_path %>
