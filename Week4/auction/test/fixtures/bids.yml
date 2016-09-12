@@ -2,8 +2,10 @@
 
 one:
   product: one
+  user: one
   amount: 9.99
 
 two:
   product: two
+  user: two
   amount: 9.99

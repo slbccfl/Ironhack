@@ -1,10 +1,10 @@
 class ProductsController < ApplicationController
 	def index
-		@user = User.find(params[:user_id])
-		@products = @user.products
+		@products = Product.all
 	end
 	def show
 		@product = Product.find(params[:product_id])
+		@bid = @product.bids.new
 	end
 	def new
 		@user = User.find(params[:user_id])
@@ -19,8 +19,12 @@ class ProductsController < ApplicationController
 		)
 		product.save
 
-		redirect_to "/users/#{user.id}/products"
+		redirect_to "/products/index"
 	end
 	def destroy
+		product = Product.find(params[:product_id])
+		product.destroy
+
+		redirect_to "products/index"
 	end
 end

@@ -1,6 +1,16 @@
 <h1>Product Display</h1>
 
 <h2><%= @product.title %></h2>
-<h2><%= @product.description %><h2>
-<h2><%= @product.deadline %><h2>
+<h2><%= @product.description %></h2>
+<h2><%= @product.deadline %></h2>
+<% @email = '' %>
 
+<%= form_for [@product, @bid] do |f| %>
+	<%= f.label @email %>
+	<%= f.text_field @email %>
+	<br>
+	<%= f.label :amount %>
+	<%= f.text_area :amount %>
+	<br>
+	<%= f.submit 'Save' %>
+<% end %>
