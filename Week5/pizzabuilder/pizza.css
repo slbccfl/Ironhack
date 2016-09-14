@@ -148,29 +148,29 @@ p.description {
     left: 0;
 }
 
-.btn-pepperonni {
+.btn-pepperoni {
   background: #e8103b;
   box-shadow: 0 6px #890923;
   color: #fff;
 }
 
-.btn-pepperonni:hover {
+.btn-pepperoni:hover {
   background: #c80e33;
   box-shadow: 0 5px #69071b;
   color: #fff;
 }
 
-.btn-pepperonni.active {
+.btn-pepperoni.active {
   top: 2px;
   box-shadow: 0 2px #890923;
 }
 
-.btn-pepperonni.active:hover {
+.btn-pepperoni.active:hover {
   box-shadow: 0 2px #69071b;
 }
 
-.btn-pepperonni:active,
-.btn-pepperonni.active:active {
+.btn-pepperoni:active,
+.btn-pepperoni.active:active {
   top: 5px;
   box-shadow: none;
 }
@@ -369,7 +369,7 @@ p.description {
     transform: rotate(12deg) translate(-4px, -600px);
 }
 
-.pep {
+.pepperoni {
     position: absolute;
     width: 80px;
     height: 70px;
@@ -390,136 +390,136 @@ p.description {
     -o-transform: scale(1.3);
     transform: scale(1.3);
   } */
-.pep.one {
+.pepperoni.one {
     margin: 60px 0 0 305px;
 }
 
-.pep.two {
+.pepperoni.two {
     margin: 75px 0 0 390px;
 }
 
-.pep.three {
+.pepperoni.three {
     margin: 115px 0 0 470px;
 }
 
-.pep.four {
+.pepperoni.four {
     margin: 190px 0 0 525px;
 }
 
-.pep.five {
+.pepperoni.five {
     margin: 275px 0 0 555px;
 }
 
-.pep.six {
+.pepperoni.six {
     margin: 365px 0 0 550px;
 }
 
-.pep.seven {
+.pepperoni.seven {
     margin: 450px 0 0 515px;
 }
 
-.pep.eight {
+.pepperoni.eight {
     margin: 515px 0 0 450px;
 }
 
-.pep.nine {
+.pepperoni.nine {
     margin: 555px 0 0 365px;
 }
 
-.pep.ten {
+.pepperoni.ten {
     margin: 560px 0 0 270px;
 }
 
-.pep.eleven {
+.pepperoni.eleven {
     margin: 560px 0 0 270px;
 }
 
-.pep.twelve {
+.pepperoni.twelve {
     margin: 524px 0 0 182px;
 }
 
-.pep.thirteen {
+.pepperoni.thirteen {
     margin: 265px 0 0 355px;
 }
 
-.pep.fourteen {
+.pepperoni.fourteen {
     margin: 233px 0 0 445px;
 }
 
-.pep.fifteen {
+.pepperoni.fifteen {
     margin: 467px 0 0 340px;
 }
 
-.pep.sixteen {
+.pepperoni.sixteen {
     margin: 194px 0 0 197px;
 }
 
-.pep.seventeen {
+.pepperoni.seventeen {
     margin: 329px 0 0 458px;
 }
 
-.pep.eightteen {
+.pepperoni.eightteen {
     margin: 461px 0 0 115px;
 }
 
-.pep.nineteen {
+.pepperoni.nineteen {
     margin: 380px 0 0 69px;
 }
 
-.pep.twenty {
+.pepperoni.twenty {
     margin: 287px 0 0 60px;
 }
 
-.pep.twenty-one {
+.pepperoni.twenty-one {
     margin: 197px 0 0 86px;
 }
 
-.pep.twenty-two {
+.pepperoni.twenty-two {
     margin: 125px 0 0 141px;
 }
 
-.pep.twenty-three {
+.pepperoni.twenty-three {
     margin: 84px 0 0 218px;
 }
 
-.pep.twenty-four {
+.pepperoni.twenty-four {
     margin: 150px 0 0 278px;
 }
 
-.pep.twenty-five {
+.pepperoni.twenty-five {
     margin: 167px 0 0 374px;
 }
 
-.pep.twenty-six {
+.pepperoni.twenty-six {
     margin: 457px 0 0 247px;
 }
 
-.pep.twenty-seven {
+.pepperoni.twenty-seven {
     margin: 426px 0 0 426px;
 }
 
-.pep.twenty-eight {
+.pepperoni.twenty-eight {
     margin: 390px 0 0 177px;
 }
 
-.pep.twenty-nine {
+.pepperoni.twenty-nine {
     margin: 290px 0 0 153px;
 }
 
-.pep.thirty {
+.pepperoni.thirty {
     margin: 362px 0 0 267px;
 }
 
-.pep.thirty-one {
+.pepperoni.thirty-one {
     margin: 270px 0 0 257px;
 }
 
-.pep.thirty-three {
+.pepperoni.thirty-three {
     margin: 358px 0 0 365px;
 }
 
 /*--- Mushrooms ---*/
-.mushroom {
+.mushrooms {
     position: absolute;
     width: 70px;
     height: 75px;
@@ -546,7 +546,7 @@ p.description {
     margin-top: -10px;
 }
 
-.mushroom.one {
+.mushrooms.one {
     margin: 367px 0 0 122px;
     -webkit-transform: rotate(22deg);
     -moz-transform: rotate(22deg);
@@ -554,7 +554,7 @@ p.description {
     transform: rotate(22deg);
 }
 
-.mushroom.two {
+.mushrooms.two {
     margin: 229px 0 0 170px;
     -webkit-transform: rotate(-47deg);
     -moz-transform: rotate(-47deg);
@@ -562,7 +562,7 @@ p.description {
     transform: rotate(-47deg);
 }
 
-.mushroom.three {
+.mushrooms.three {
     margin: 307px 0 0 201px;
     -webkit-transform: rotate(15deg);
     -moz-transform: rotate(15deg);
@@ -570,7 +570,7 @@ p.description {
     transform: rotate(15deg);
 }
 
-.mushroom.four {
+.mushrooms.four {
     margin: 127px 0 0 335px;
     -webkit-transform: rotate(67deg);
     -moz-transform: rotate(67deg);
@@ -578,7 +578,7 @@ p.description {
     transform: rotate(67deg);
 }
 
-.mushroom.five {
+.mushrooms.five {
     margin: 215px 0 0 340px;
     -webkit-transform: rotate(-86deg);
     -moz-transform: rotate(-86deg);
@@ -586,7 +586,7 @@ p.description {
     transform: rotate(-86deg);
 }
 
-.mushroom.six {
+.mushrooms.six {
     margin: 301px 0 0 290px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -594,7 +594,7 @@ p.description {
     transform: rotate(0deg);
 }
 
-.mushroom.seven {
+.mushrooms.seven {
     margin: 417px 0 0 320px;
     -webkit-transform: rotate(-101deg);
     -moz-transform: rotate(-101deg);
@@ -602,7 +602,7 @@ p.description {
     transform: rotate(-101deg);
 }
 
-.mushroom.eight {
+.mushrooms.eight {
     margin: 507px 0 0 304px;
     -webkit-transform: rotate(289deg);
     -moz-transform: rotate(289deg);
@@ -610,7 +610,7 @@ p.description {
     transform: rotate(289deg);
 }
 
-.mushroom.nine {
+.mushrooms.nine {
     margin: 507px 0 0 381px;
     -webkit-transform: rotate(133deg);
     -moz-transform: rotate(133deg);
@@ -618,7 +618,7 @@ p.description {
     transform: rotate(133deg);
 }
 
-.mushroom.ten {
+.mushrooms.ten {
     margin: 427px 0 0 381px;
     -webkit-transform: rotate(115deg);
     -moz-transform: rotate(115deg);
@@ -626,7 +626,7 @@ p.description {
     transform: rotate(115deg);
 }
 
-.mushroom.eleven {
+.mushrooms.eleven {
     margin: 281px 0 0 90px;
     -webkit-transform: rotate(115deg);
     -moz-transform: rotate(115deg);
@@ -634,7 +634,7 @@ p.description {
     transform: rotate(115deg);
 }
 
-.mushroom.twelve {
+.mushrooms.twelve {
     margin: 307px 0 0 423px;
     -webkit-transform: rotate(-47deg);
     -moz-transform: rotate(-47deg);
@@ -642,7 +642,7 @@ p.description {
     transform: rotate(-47deg);
 }
 
-.mushroom.thirteen {
+.mushrooms.thirteen {
     margin: 440px 0 0 170px;
     -webkit-transform: rotate(115deg);
     -moz-transform: rotate(115deg);
@@ -650,7 +650,7 @@ p.description {
     transform: rotate(115deg);
 }
 
-.mushroom.fourteen {
+.mushrooms.fourteen {
     margin: 397px 0 0 480px;
     -webkit-transform: rotate(67deg);
     -moz-transform: rotate(67deg);
@@ -658,7 +658,7 @@ p.description {
     transform: rotate(67deg);
 }
 
-.mushroom.fifteen {
+.mushrooms.fifteen {
     margin: 177px 0 0 451px;
     -webkit-transform: rotate(-86deg);
     -moz-transform: rotate(-86deg);
@@ -666,7 +666,7 @@ p.description {
     transform: rotate(-86deg);
 }
 
-.mushroom.sixteen {
+.mushrooms.sixteen {
     margin: 227px 0 0 250px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -674,7 +674,7 @@ p.description {
     transform: rotate(0deg);
 }
 
-.mushroom.seventeen {
+.mushrooms.seventeen {
     margin: 137px 0 0 231px;
     -webkit-transform: rotate(-101deg);
     -moz-transform: rotate(-101deg);
@@ -682,7 +682,7 @@ p.description {
     transform: rotate(-101deg);
 }
 
-.mushroom.eighteen {
+.mushrooms.eighteen {
     margin: 377px 0 0 230px;
     -webkit-transform: rotate(289deg);
     -moz-transform: rotate(289deg);
@@ -690,7 +690,7 @@ p.description {
     transform: rotate(289deg);
 }
 
-.mushroom.nineteen {
+.mushrooms.nineteen {
     margin: 507px 0 0 381px;
     -webkit-transform: rotate(133deg);
     -moz-transform: rotate(133deg);
@@ -698,7 +698,7 @@ p.description {
     transform: rotate(133deg);
 }
 
-.mushroom.twenty {
+.mushrooms.twenty {
     margin: 427px 0 0 381px;
     -webkit-transform: rotate(115deg);
     -moz-transform: rotate(115deg);
@@ -706,7 +706,7 @@ p.description {
     transform: rotate(115deg);
 }
 
-.mushroom.twenty-one {
+.mushrooms.twenty-one {
     margin: 277px 0 0 505px;
     -webkit-transform: rotate(-27deg);
     -moz-transform: rotate(-27deg);
@@ -714,7 +714,7 @@ p.description {
     transform: rotate(-27deg);
 }
 
-.mushroom.twenty-two {
+.mushrooms.twenty-two {
     margin: 509px 0 0 224px;
     -webkit-transform: rotate(-29deg);
     -moz-transform: rotate(-29deg);
@@ -722,7 +722,7 @@ p.description {
     transform: rotate(-29deg);
 }
 
-.mushroom.twenty-three {
+.mushrooms.twenty-three {
     margin: 477px 0 0 464px;
     -webkit-transform: rotate(-29deg);
     -moz-transform: rotate(-29deg);
@@ -730,7 +730,7 @@ p.description {
     transform: rotate(-29deg);
 }
 
-.mushroom.twenty-four {
+.mushrooms.twenty-four {
     margin: 98px 0 0 417px;
     -webkit-transform: rotate(-29deg);
     -moz-transform: rotate(-29deg);
@@ -738,7 +738,7 @@ p.description {
     transform: rotate(-29deg);
 }
 
-.mushroom.twenty-five {
+.mushrooms.twenty-five {
     margin: 169px 0 0 510px;
     -webkit-transform: rotate(30deg);
     -moz-transform: rotate(30deg);
@@ -746,7 +746,7 @@ p.description {
     transform: rotate(30deg);
 }
 
-.mushroom.twenty-six {
+.mushrooms.twenty-six {
     margin: 66px 0 0 280px;
     -webkit-transform: rotate(-29deg);
     -moz-transform: rotate(-29deg);
@@ -754,7 +754,7 @@ p.description {
     transform: rotate(-29deg);
 }
 
-.mushroom.twenty-seven {
+.mushrooms.twenty-seven {
     margin: 347px 0 0 561px;
     -webkit-transform: rotate(15deg);
     -moz-transform: rotate(15deg);
@@ -762,7 +762,7 @@ p.description {
     transform: rotate(15deg);
 }
 
-.mushroom.twenty-eight {
+.mushrooms.twenty-eight {
     margin: 151px 0 0 151px;
     -webkit-transform: rotate(15deg);
     -moz-transform: rotate(15deg);
@@ -770,7 +770,7 @@ p.description {
     transform: rotate(15deg);
 }
 
-.mushroom.twenty-nine {
+.mushrooms.twenty-nine {
     margin: 441px 0 0 101px;
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -778,7 +778,7 @@ p.description {
     transform: rotate(45deg);
 }
 
-.mushroom.thirty {
+.mushrooms.thirty {
     margin: 581px 0 0 311px;
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -786,7 +786,7 @@ p.description {
     transform: rotate(45deg);
 }
 
-.mushroom.thirty-one {
+.mushrooms.thirty-one {
     margin: 224px 0 0 91px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -794,7 +794,7 @@ p.description {
     transform: rotate(0deg);
 }
 
-.mushroom.thirty-two {
+.mushrooms.thirty-two {
     margin: 357px 0 0 342px;
     -webkit-transform: rotate(67deg);
     -moz-transform: rotate(67deg);
