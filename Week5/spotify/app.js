@@ -19,9 +19,8 @@ function artistSearch() {
 function showArtists(response) {
 	console.log("Successful GET");
 	console.log(response);
-	JSON.parse(response, function(k,v) {
-		console.log(k + ' => ' + v);
-	});
+	artistHash = JSON.parse(response);
+	
 
 }
 
