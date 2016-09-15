@@ -3,9 +3,10 @@
 	<head>
 		<meta charset='utf-8'>
 		<title> Spotify Search </title>
-
 		<script   src="http://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src='app.js' type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	</head>
 	<body>
 		<h1> Spotify Search </h1>
@@ -15,5 +16,15 @@
 			<input class="js-artist-name" type="text" placeholder="Artist Name">
 			<button class="js-artist-search">Artist Search</button>
 		</form>
+		<ul class="artistList">
+		</ul>
+		<div class="modal fade js-album-modal">
+		  <div class="modal-dialog">
+    		<div class="modal-content">
+				<h3 class="modal-title">Artists Albums</h3>
+				<ul class="js-album-list"></ul>
+			</div>
+		  </div>
+		</div>
 	</body>
 </html>
